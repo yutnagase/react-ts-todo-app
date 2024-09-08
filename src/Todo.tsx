@@ -126,7 +126,7 @@ export const Todo = () => {
     setIsModalOpen(true);
   };
 
-  const isMaxLimitIncompleteTodos = incompleteTodos.length >= 5;
+  const isMaxLimitIncompleteTodos = incompleteTodos.length >= 10;
 
   return (
     <div className="todo-container">
@@ -149,7 +149,9 @@ export const Todo = () => {
         isEditing={isEditing}
       />
       {isMaxLimitIncompleteTodos && (
-        <p style={{ color: "red" }}>登録できるTODOは5個までです。</p>
+        <p style={{ color: "red" }}>
+          You can only register up to 10 TODO items.
+        </p>
       )}
       <IncompleteTodos
         todos={incompleteTodos}
