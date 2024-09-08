@@ -1,0 +1,32 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "text": "Prepare presentation for team meeting",
+      "completed": true,
+      "dueDate": "2025-01-10",
+      "priority": "High"
+    },
+    {
+      "id": "2",
+      "text": "Complete the quarterly financial report",
+      "completed": false,
+      "dueDate": "2025-02-01",
+      "priority": "Medium"
+    },
+    {
+      "id": "3",
+      "text": "Review and update project documentation",
+      "dueDate": "2026-07-10",
+      "priority": "Low",
+      "completed": false
+    },
+    {
+      "id": "4",
+      "text": "Schedule a one-on-one with the manager",
+      "dueDate": "2027-06-20",
+      "priority": "Medium",
+      "completed": true
+    }
+  ]
+}
