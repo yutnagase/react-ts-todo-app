@@ -48,7 +48,7 @@ const InputTodo = ({
       <option value={PRIORITY_LEVELS.LOW}>Low</option>
     </select>
     <button onClick={onClick} disabled={disabled}>
-      {isEditing ? "Update" : "Add"}
+      Add
     </button>
   </div>
 );
